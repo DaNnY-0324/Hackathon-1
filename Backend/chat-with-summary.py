@@ -9,6 +9,8 @@ import os
 
 # Set up OpenAI API key
 
+# Change from frontend
+
 def get_transcript(vtt_url):
     response = requests.get(vtt_url)
     with open('transcript.vtt', 'wb') as file:
